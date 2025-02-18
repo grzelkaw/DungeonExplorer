@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{b0aec1e2-06db-4e98-832c-256c3b8baf59}</ProjectGuid>
+    <RootNamespace>Project1</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>sfml-system-d.lib;sfml-window-d.lib;sfml-graphics-d.lib;sfml-audio-d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>sfml-system.lib;sfml-window.lib;sfml-graphics.lib;sfml-audio.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>sfml-system-d.lib;sfml-window-d.lib;sfml-graphics-d.lib;sfml-audio-d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>sfml-system.lib;sfml-window.lib;sfml-graphics.lib;sfml-audio.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="animation.cpp" />
+    <ClCompile Include="enemy.cpp" />
+    <ClCompile Include="enemyDragon.cpp" />
+    <ClCompile Include="enemyGhost.cpp" />
+    <ClCompile Include="enemyMage.cpp" />
+    <ClCompile Include="enemyRobot.cpp" />
+    <ClCompile Include="enemySlime.cpp" />
+    <ClCompile Include="enemyZombie.cpp" />
+    <ClCompile Include="gameTile.cpp" />
+    <ClCompile Include="gameWorld.cpp" />
+    <ClCompile Include="item.cpp" />
+    <ClCompile Include="itemBackShot.cpp" />
+    <ClCompile Include="itemBouncingShot.cpp" />
+    <ClCompile Include="itemHealing.cpp" />
+    <ClCompile Include="itemPenetrateShot.cpp" />
+    <ClCompile Include="itemSpectralShot.cpp" />
+    <ClCompile Include="itemTripleShot.cpp" />
+    <ClCompile Include="object.cpp" />
+    <ClCompile Include="objectBarrel.cpp" />
+    <ClCompile Include="objectChest.cpp" />
+    <ClCompile Include="objectMedKit.cpp" />
+    <ClCompile Include="objectTrapdoor.cpp" />
+    <ClCompile Include="player.cpp" />
+    <ClCompile Include="projectile.cpp" />
+    <ClCompile Include="projectileEnemy.cpp" />
+    <ClCompile Include="Źródło.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="animation.h" />
+    <ClInclude Include="enemy.h" />
+    <ClInclude Include="enemyDragon.h" />
+    <ClInclude Include="enemyGhost.h" />
+    <ClInclude Include="enemyMage.h" />
+    <ClInclude Include="enemyRobot.h" />
+    <ClInclude Include="enemySlime.h" />
+    <ClInclude Include="enemyZombie.h" />
+    <ClInclude Include="gameTile.h" />
+    <ClInclude Include="gameWorld.h" />
+    <ClInclude Include="item.h" />
+    <ClInclude Include="itemBackShot.h" />
+    <ClInclude Include="itemBouncingShot.h" />
+    <ClInclude Include="itemHealing.h" />
+    <ClInclude Include="itemPenetrateShot.h" />
+    <ClInclude Include="itemSpectralShot.h" />
+    <ClInclude Include="itemTripleShot.h" />
+    <ClInclude Include="object.h" />
+    <ClInclude Include="objectBarrel.h" />
+    <ClInclude Include="objectChest.h" />
+    <ClInclude Include="objectMedKit.h" />
+    <ClInclude Include="objectTrapdoor.h" />
+    <ClInclude Include="player.h" />
+    <ClInclude Include="projectile.h" />
+    <ClInclude Include="projectileEnemy.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Project1.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="resources\fonts\arial.ttf">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </Font>
+    <Font Include="resources\fonts\minecraft.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="resources\textures\enemies\dragon\dragon.png" />
+    <Image Include="resources\textures\enemies\ghost\enemy1.png" />
+    <Image Include="resources\textures\enemies\mage\mage.png" />
+    <Image Include="resources\textures\enemies\projectiles\fireball.png" />
+    <Image Include="resources\textures\enemies\robot\robot.png" />
+    <Image Include="resources\textures\enemies\slime\slime.png" />
+    <Image Include="resources\textures\enemies\zombie\zombie.png" />
+    <Image Include="resources\textures\floors\floor1\floor1.png" />
+    <Image Include="resources\textures\floors\floor1\floor10.png" />
+    <Image Include="resources\textures\floors\floor1\floor11.png" />
+    <Image Include="resources\textures\floors\floor1\floor12.png" />
+    <Image Include="resources\textures\floors\floor1\floor13.png" />
+    <Image Include="resources\textures\floors\floor1\floor14.png" />
+    <Image Include="resources\textures\floors\floor1\floor15.png" />
+    <Image Include="resources\textures\floors\floor1\floor16.png" />
+    <Image Include="resources\textures\floors\floor1\floor17.png" />
+    <Image Include="resources\textures\floors\floor1\floor18.png" />
+    <Image Include="resources\textures\floors\floor1\floor19.png" />
+    <Image Include="resources\textures\floors\floor1\floor2.png" />
+    <Image Include="resources\textures\floors\floor1\floor20.png" />
+    <Image Include="resources\textures\floors\floor1\floor21.png" />
+    <Image Include="resources\textures\floors\floor1\floor22.png" />
+    <Image Include="resources\textures\floors\floor1\floor23.png" />
+    <Image Include="resources\textures\floors\floor1\floor24.png" />
+    <Image Include="resources\textures\floors\floor1\floor25.png" />
+    <Image Include="resources\textures\floors\floor1\floor26.png" />
+    <Image Include="resources\textures\floors\floor1\floor27.png" />
+    <Image Include="resources\textures\floors\floor1\floor28.png" />
+    <Image Include="resources\textures\floors\floor1\floor29.png" />
+    <Image Include="resources\textures\floors\floor1\floor3.png" />
+    <Image Include="resources\textures\floors\floor1\floor30.png" />
+    <Image Include="resources\textures\floors\floor1\floor4.png" />
+    <Image Include="resources\textures\floors\floor1\floor5.png" />
+    <Image Include="resources\textures\floors\floor1\floor6.png" />
+    <Image Include="resources\textures\floors\floor1\floor7.png" />
+    <Image Include="resources\textures\floors\floor1\floor8.png" />
+    <Image Include="resources\textures\floors\floor1\floor9.png" />
+    <Image Include="resources\textures\icons\damage.png" />
+    <Image Include="resources\textures\icons\eliminations.png" />
+    <Image Include="resources\textures\icons\gold.png" />
+    <Image Include="resources\textures\icons\hp.png" />
+    <Image Include="resources\textures\icons\lvl.png" />
+    <Image Include="resources\textures\icons\map.png" />
+    <Image Include="resources\textures\icons\miniMap\map.png" />
+    <Image Include="resources\textures\icons\miniMap\notMap.png" />
+    <Image Include="resources\textures\icons\miniMap\playerIcon.png" />
+    <Image Include="resources\textures\icons\speed.png" />
+    <Image Include="resources\textures\icons\velocity.png" />
+    <Image Include="resources\textures\keys\arrows.png" />
+    <Image Include="resources\textures\keys\f1.png" />
+    <Image Include="resources\textures\keys\f2.png" />
+    <Image Include="resources\textures\keys\wsad.png" />
+    <Image Include="resources\textures\objects\barrel.png" />
+    <Image Include="resources\textures\objects\chest.png" />
+    <Image Include="resources\textures\objects\medKit.png" />
+    <Image Include="resources\textures\objects\trapdoorClosed.png" />
+    <Image Include="resources\textures\objects\trapdoorOpen.png" />
+    <Image Include="resources\textures\pause.png" />
+    <Image Include="resources\textures\player\player1\Idle1.png" />
+    <Image Include="resources\textures\player\player2\Idle2.png" />
+    <Image Include="resources\textures\player\player\Attack.png" />
+    <Image Include="resources\textures\player\player\Death.png" />
+    <Image Include="resources\textures\player\player\Fall.png" />
+    <Image Include="resources\textures\player\player\Get hit.png" />
+    <Image Include="resources\textures\player\player\Idle.png" />
+    <Image Include="resources\textures\player\player\Jump.png" />
+    <Image Include="resources\textures\player\player\projectileExplode.png" />
+    <Image Include="resources\textures\player\player\projectileMoving.png" />
+    <Image Include="resources\textures\player\player\Runleft.png" />
+    <Image Include="resources\textures\player\player\Runright.png" />
+    <Image Include="resources\textures\player\player\Walk.png" />
+    <Image Include="resources\textures\player\player\wings.png" />
+    <Image Include="resources\textures\portal.png" />
+    <Image Include="resources\textures\spikes\slime1.png" />
+    <Image Include="resources\textures\spikes\spikes1.png" />
+    <Image Include="resources\textures\walls\bricks\brick1.png" />
+    <Image Include="resources\textures\walls\bricks\brick2.png" />
+    <Image Include="resources\textures\walls\bricks\brick3.png" />
+    <Image Include="resources\textures\walls\bricks\brick4.png" />
+    <Image Include="resources\textures\walls\lava\lava1.png" />
+    <Image Include="resources\textures\walls\lava\lava2.png" />
+    <Image Include="resources\textures\walls\lava\lava3.png" />
+    <Image Include="resources\textures\walls\lava\lava4.png" />
+    <Image Include="resources\textures\walls\wall1\sciany1.png" />
+    <Image Include="resources\textures\walls\wall1\wall1.png" />
+    <Image Include="resources\textures\walls\wall1\wall10.png" />
+    <Image Include="resources\textures\walls\wall1\wall11.png" />
+    <Image Include="resources\textures\walls\wall1\wall12.png" />
+    <Image Include="resources\textures\walls\wall1\wall13.png" />
+    <Image Include="resources\textures\walls\wall1\wall14.png" />
+    <Image Include="resources\textures\walls\wall1\wall15.png" />
+    <Image Include="resources\textures\walls\wall1\wall16.png" />
+    <Image Include="resources\textures\walls\wall1\wall17.png" />
+    <Image Include="resources\textures\walls\wall1\wall18.png" />
+    <Image Include="resources\textures\walls\wall1\wall19.png" />
+    <Image Include="resources\textures\walls\wall1\wall2.png" />
+    <Image Include="resources\textures\walls\wall1\wall20.png" />
+    <Image Include="resources\textures\walls\wall1\wall21.png" />
+    <Image Include="resources\textures\walls\wall1\wall22.png" />
+    <Image Include="resources\textures\walls\wall1\wall23.png" />
+    <Image Include="resources\textures\walls\wall1\wall24.png" />
+    <Image Include="resources\textures\walls\wall1\wall25.png" />
+    <Image Include="resources\textures\walls\wall1\wall26.png" />
+    <Image Include="resources\textures\walls\wall1\wall27.png" />
+    <Image Include="resources\textures\walls\wall1\wall28.png" />
+    <Image Include="resources\textures\walls\wall1\wall29.png" />
+    <Image Include="resources\textures\walls\wall1\wall3.png" />
+    <Image Include="resources\textures\walls\wall1\wall30.png" />
+    <Image Include="resources\textures\walls\wall1\wall4.png" />
+    <Image Include="resources\textures\walls\wall1\wall5.png" />
+    <Image Include="resources\textures\walls\wall1\wall6.png" />
+    <Image Include="resources\textures\walls\wall1\wall7.png" />
+    <Image Include="resources\textures\walls\wall1\wall8.png" />
+    <Image Include="resources\textures\walls\wall1\wall9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="resources\sounds\damageTaken.wav" />
+    <Media Include="resources\sounds\door.wav" />
+    <Media Include="resources\sounds\enemyDeath.wav" />
+    <Media Include="resources\sounds\hit.wav" />
+    <Media Include="resources\sounds\music.wav" />
+    <Media Include="resources\sounds\shot.wav" />
+    <Media Include="resources\sounds\walk.wav" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
