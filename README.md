@@ -11,7 +11,7 @@
 The game revolves around exploring rooms, defeating all enemies, and advancing to the next floor. After each enemy encounter, you gain experience, which allows your hero to level up, increasing stats such as damage, speed, and attack frequency.
 Throughout the map, you can find and open chests that may contain gold or stat upgrades. Gold can be spent in special gold rooms to purchase items that provide various effects, such as double-shot, piercing attacks, or healing abilities. The primary objective is to defeat the boss, who typically appears in the final room of each floor, gather his special item, and then repeat the cycle.
 </p>
-<p>You can also watch gameplay on video here: https://www.youtube.com/watch?v=fwEFi-zKaQQ&t=268s</p>
+<p>You can also watch gameplay on video here: https://youtu.be/fwEFi-zKaQQ?si=WnwLEPS5Od3dbDAR</p>
 
 ![image alt](https://github.com/grzelkaw/DungeonExplorer/blob/main/screenshots/1.png?raw=true)
 
