@@ -1,6 +1,5 @@
 # DungeonExplorer
-C++ SFML game
-<p> Rouge Like game made in C++ using SFML library. It was an final assignment on first year of studies.</p>
+<p>Rouge Like game made in C++ using SFML library. It was an final assignment on first year of studies.</p>
 
 # Starting screen
 <p>On start we can choose our gamemode, single or multiplayer coop. In multiplayer second player uses keys JIKL to move and Numpad to shot. Also have other color than main player to avoid mistake in steering.</p>
@@ -12,6 +11,7 @@ C++ SFML game
 The game revolves around exploring rooms, defeating all enemies, and advancing to the next floor. After each enemy encounter, you gain experience, which allows your hero to level up, increasing stats such as damage, speed, and attack frequency.
 Throughout the map, you can find and open chests that may contain gold or stat upgrades. Gold can be spent in special gold rooms to purchase items that provide various effects, such as double-shot, piercing attacks, or healing abilities. The primary objective is to defeat the boss, who typically appears in the final room of each floor, gather his special item, and then repeat the cycle.
 </p>
+<p>You can also watch gameplay on video here: https://www.youtube.com/watch?v=fwEFi-zKaQQ&t=268s</p>
 
 ![image alt](https://github.com/grzelkaw/DungeonExplorer/blob/main/screenshots/1.png?raw=true)
 
@@ -46,10 +46,13 @@ Object class is also abstract simmilar to enemy, but this time is about objects 
 <h3> Item </h3>
 Abstract class same as object or enemy. Is used to give player different effect after picking item like multi-shot or healing.
 
-![image](https://github.com/user-attachments/assets/e98a2257-05a4-4e20-b083-541d7258addb)\
+![image alt](https://github.com/user-attachments/assets/e98a2257-05a4-4e20-b083-541d7258addb)
 
 # Pause
-<p> We can also pause the game, where we can turn off music, or save and load game. Save and Load works by saving our stats and items to txt file, and loading it up when we want.
+We can also pause the game, where we can turn off music, or save and load game. Save and Load works by saving our stats and items to txt file, and loading it up when we want.
 ![image alt](https://github.com/grzelkaw/DungeonExplorer/blob/main/screenshots/8.png?raw=true)
+
+# Future plans
+TODO
 
 
