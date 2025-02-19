@@ -1,6 +1,9 @@
 # DungeonExplorer
 <p>Rouge Like game made in C++ using SFML library. It was an final assignment on first year of studies.</p>
 
+# How to start
+<p>Download the 'game' folder, inside you have .exe file. Open the .exe file and game is ready to go. In the 'files' folder there are all .cpp and .h source files if you want to check yourself </p>
+
 # Starting screen
 <p>On start we can choose our gamemode, single or multiplayer coop. In multiplayer second player uses keys JIKL to move and Numpad to shot. Also have other color than main player to avoid mistake in steering.</p>
 
