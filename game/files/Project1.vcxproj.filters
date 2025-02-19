@@ -1,0 +1,659 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Pliki źródłowe">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Pliki zasobów">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="resources">
+      <UniqueIdentifier>{a1d2e986-285e-4319-8c64-9efa8d798d0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources\sounds">
+      <UniqueIdentifier>{fe196188-9508-4f97-b180-f98f43961f4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\enemies">
+      <UniqueIdentifier>{3c4283fb-1e05-4a9b-9e31-70595c447ad5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\objects">
+      <UniqueIdentifier>{0caa23ea-aa03-4a5e-b7e6-209f395bafdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\enemies">
+      <UniqueIdentifier>{875afceb-84a1-49d6-96b4-8d39be002deb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\objects">
+      <UniqueIdentifier>{3fbc781d-2987-4b18-ad68-2e401681749b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources\textures">
+      <UniqueIdentifier>{2d44ede3-835c-4e82-85c1-10181a720241}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources\textures\keys">
+      <UniqueIdentifier>{b938542d-159e-44bd-99f4-e9d02b4a9deb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources\textures\icons">
+      <UniqueIdentifier>{3ffb5236-30cd-401b-984f-86ccb7002295}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources\textures\floors">
+      <UniqueIdentifier>{1c2f1838-ef4d-4f72-bc17-34960c840587}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources\textures\floors\floor1">
+      <UniqueIdentifier>{c5376b80-912f-4201-89f9-90db820978e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources\textures\objects">
+      <UniqueIdentifier>{08a50e08-4761-4c9f-a7bf-dacb56148a20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources\textures\player">
+      <UniqueIdentifier>{a7ee0ab8-1486-4923-a5ff-c7d7773c1042}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources\textures\walls">
+      <UniqueIdentifier>{c794a640-474b-44e5-8640-7a54571991f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources\textures\walls\wall1">
+      <UniqueIdentifier>{ae9cba21-0e86-4793-9b21-b4f161ce50c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources\textures\floors\lava">
+      <UniqueIdentifier>{2b68cbc2-e363-4328-a449-416a51e71dff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources\textures\walls\bricks">
+      <UniqueIdentifier>{6a0a3956-fcae-4172-8f18-294fe5efb79d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources\textures\spikes">
+      <UniqueIdentifier>{30318464-b4d4-465a-a3b9-0980b4ec82f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources\textures\player\player">
+      <UniqueIdentifier>{378f3a31-7257-4f05-aee0-6bd1584ed0c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources\textures\player\player1">
+      <UniqueIdentifier>{c6fc6496-9f99-4119-bdc6-509bf7df0338}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources\textures\player\player2">
+      <UniqueIdentifier>{a92b147a-1ec6-4edb-b454-eaf8a0143e72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources\textures\icons\miniMap">
+      <UniqueIdentifier>{1c98c270-dace-434c-baae-9df3f7c172ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources\textures\enemies">
+      <UniqueIdentifier>{32c9a919-190d-4667-8df4-cf260e35ab73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources\textures\enemies\ghost">
+      <UniqueIdentifier>{11afac7e-806e-43ee-8d15-b73fa3e19595}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources\textures\enemies\zombie">
+      <UniqueIdentifier>{1971f651-24eb-4249-8c39-71f33737834c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources\textures\enemies\robot">
+      <UniqueIdentifier>{d347d412-ecbe-44d1-bd34-9ab6ee1def93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources\textures\enemies\slime">
+      <UniqueIdentifier>{d0b1007d-2c09-457a-be3c-841e149f6f7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources\textures\enemies\dragon">
+      <UniqueIdentifier>{ebcb3ce2-5c5b-434f-b186-f19525948c09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources\textures\enemies\projectiles">
+      <UniqueIdentifier>{0297305d-0980-493e-a275-0740b5616f3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources\textures\enemies\mage">
+      <UniqueIdentifier>{20c00ff3-81e4-4186-9613-a8e580b8ff97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\game">
+      <UniqueIdentifier>{3e3e297d-6dd0-4a64-bab7-003f9c895e9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\game">
+      <UniqueIdentifier>{179d97c6-7267-469c-85c2-6187a9bc8500}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\items">
+      <UniqueIdentifier>{603e3baa-bbc4-4727-9e28-dd2017943867}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\items">
+      <UniqueIdentifier>{be78812a-9aa9-4ac7-bc83-7be9466fda00}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Źródło.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="projectile.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy.cpp">
+      <Filter>Pliki źródłowe\enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="enemyGhost.cpp">
+      <Filter>Pliki źródłowe\enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="enemyRobot.cpp">
+      <Filter>Pliki źródłowe\enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="enemySlime.cpp">
+      <Filter>Pliki źródłowe\enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="enemyZombie.cpp">
+      <Filter>Pliki źródłowe\enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="object.cpp">
+      <Filter>Pliki źródłowe\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="objectBarrel.cpp">
+      <Filter>Pliki źródłowe\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="objectMedKit.cpp">
+      <Filter>Pliki źródłowe\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="objectChest.cpp">
+      <Filter>Pliki źródłowe\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="enemyDragon.cpp">
+      <Filter>Pliki źródłowe\enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="projectileEnemy.cpp">
+      <Filter>Pliki źródłowe\enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="enemyMage.cpp">
+      <Filter>Pliki źródłowe\enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="objectTrapdoor.cpp">
+      <Filter>Pliki źródłowe\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="gameTile.cpp">
+      <Filter>Pliki źródłowe\game</Filter>
+    </ClCompile>
+    <ClCompile Include="gameWorld.cpp">
+      <Filter>Pliki źródłowe\game</Filter>
+    </ClCompile>
+    <ClCompile Include="animation.cpp">
+      <Filter>Pliki źródłowe\game</Filter>
+    </ClCompile>
+    <ClCompile Include="item.cpp">
+      <Filter>Pliki źródłowe\items</Filter>
+    </ClCompile>
+    <ClCompile Include="itemHealing.cpp">
+      <Filter>Pliki źródłowe\items</Filter>
+    </ClCompile>
+    <ClCompile Include="itemTripleShot.cpp">
+      <Filter>Pliki źródłowe\items</Filter>
+    </ClCompile>
+    <ClCompile Include="itemSpectralShot.cpp">
+      <Filter>Pliki źródłowe\items</Filter>
+    </ClCompile>
+    <ClCompile Include="itemPenetrateShot.cpp">
+      <Filter>Pliki źródłowe\items</Filter>
+    </ClCompile>
+    <ClCompile Include="itemBouncingShot.cpp">
+      <Filter>Pliki źródłowe\items</Filter>
+    </ClCompile>
+    <ClCompile Include="itemBackShot.cpp">
+      <Filter>Pliki źródłowe\items</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="player.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="projectile.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy.h">
+      <Filter>Pliki nagłówkowe\enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="enemyGhost.h">
+      <Filter>Pliki nagłówkowe\enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="enemyRobot.h">
+      <Filter>Pliki nagłówkowe\enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="enemySlime.h">
+      <Filter>Pliki nagłówkowe\enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="enemyZombie.h">
+      <Filter>Pliki nagłówkowe\enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="objectBarrel.h">
+      <Filter>Pliki nagłówkowe\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="objectMedKit.h">
+      <Filter>Pliki nagłówkowe\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="object.h">
+      <Filter>Pliki nagłówkowe\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="objectChest.h">
+      <Filter>Pliki nagłówkowe\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="enemyDragon.h">
+      <Filter>Pliki nagłówkowe\enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="projectileEnemy.h">
+      <Filter>Pliki nagłówkowe\enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="enemyMage.h">
+      <Filter>Pliki nagłówkowe\enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="objectTrapdoor.h">
+      <Filter>Pliki nagłówkowe\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="animation.h">
+      <Filter>Pliki nagłówkowe\game</Filter>
+    </ClInclude>
+    <ClInclude Include="gameTile.h">
+      <Filter>Pliki nagłówkowe\game</Filter>
+    </ClInclude>
+    <ClInclude Include="gameWorld.h">
+      <Filter>Pliki nagłówkowe\game</Filter>
+    </ClInclude>
+    <ClInclude Include="item.h">
+      <Filter>Pliki nagłówkowe\items</Filter>
+    </ClInclude>
+    <ClInclude Include="itemHealing.h">
+      <Filter>Pliki nagłówkowe\items</Filter>
+    </ClInclude>
+    <ClInclude Include="itemTripleShot.h">
+      <Filter>Pliki nagłówkowe\items</Filter>
+    </ClInclude>
+    <ClInclude Include="itemSpectralShot.h">
+      <Filter>Pliki nagłówkowe\items</Filter>
+    </ClInclude>
+    <ClInclude Include="itemPenetrateShot.h">
+      <Filter>Pliki nagłówkowe\items</Filter>
+    </ClInclude>
+    <ClInclude Include="itemBouncingShot.h">
+      <Filter>Pliki nagłówkowe\items</Filter>
+    </ClInclude>
+    <ClInclude Include="itemBackShot.h">
+      <Filter>Pliki nagłówkowe\items</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Project1.rc">
+      <Filter>Pliki zasobów</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="resources\fonts\arial.ttf">
+      <Filter>resources</Filter>
+    </Font>
+    <Font Include="resources\fonts\minecraft.ttf">
+      <Filter>resources</Filter>
+    </Font>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="resources\textures\portal.png">
+      <Filter>resources</Filter>
+    </Image>
+    <Image Include="resources\textures\walls\wall1\sciany1.png">
+      <Filter>resources\textures\walls\wall1</Filter>
+    </Image>
+    <Image Include="resources\textures\floors\floor1\floor1.png">
+      <Filter>resources\textures\floors\floor1</Filter>
+    </Image>
+    <Image Include="resources\textures\floors\floor1\floor2.png">
+      <Filter>resources\textures\floors\floor1</Filter>
+    </Image>
+    <Image Include="resources\textures\floors\floor1\floor3.png">
+      <Filter>resources\textures\floors\floor1</Filter>
+    </Image>
+    <Image Include="resources\textures\floors\floor1\floor4.png">
+      <Filter>resources\textures\floors\floor1</Filter>
+    </Image>
+    <Image Include="resources\textures\floors\floor1\floor5.png">
+      <Filter>resources\textures\floors\floor1</Filter>
+    </Image>
+    <Image Include="resources\textures\floors\floor1\floor6.png">
+      <Filter>resources\textures\floors\floor1</Filter>
+    </Image>
+    <Image Include="resources\textures\floors\floor1\floor7.png">
+      <Filter>resources\textures\floors\floor1</Filter>
+    </Image>
+    <Image Include="resources\textures\floors\floor1\floor8.png">
+      <Filter>resources\textures\floors\floor1</Filter>
+    </Image>
+    <Image Include="resources\textures\floors\floor1\floor9.png">
+      <Filter>resources\textures\floors\floor1</Filter>
+    </Image>
+    <Image Include="resources\textures\floors\floor1\floor10.png">
+      <Filter>resources\textures\floors\floor1</Filter>
+    </Image>
+    <Image Include="resources\textures\floors\floor1\floor11.png">
+      <Filter>resources\textures\floors\floor1</Filter>
+    </Image>
+    <Image Include="resources\textures\floors\floor1\floor12.png">
+      <Filter>resources\textures\floors\floor1</Filter>
+    </Image>
+    <Image Include="resources\textures\floors\floor1\floor13.png">
+      <Filter>resources\textures\floors\floor1</Filter>
+    </Image>
+    <Image Include="resources\textures\floors\floor1\floor14.png">
+      <Filter>resources\textures\floors\floor1</Filter>
+    </Image>
+    <Image Include="resources\textures\floors\floor1\floor15.png">
+      <Filter>resources\textures\floors\floor1</Filter>
+    </Image>
+    <Image Include="resources\textures\floors\floor1\floor16.png">
+      <Filter>resources\textures\floors\floor1</Filter>
+    </Image>
+    <Image Include="resources\textures\floors\floor1\floor17.png">
+      <Filter>resources\textures\floors\floor1</Filter>
+    </Image>
+    <Image Include="resources\textures\floors\floor1\floor18.png">
+      <Filter>resources\textures\floors\floor1</Filter>
+    </Image>
+    <Image Include="resources\textures\floors\floor1\floor19.png">
+      <Filter>resources\textures\floors\floor1</Filter>
+    </Image>
+    <Image Include="resources\textures\floors\floor1\floor20.png">
+      <Filter>resources\textures\floors\floor1</Filter>
+    </Image>
+    <Image Include="resources\textures\floors\floor1\floor21.png">
+      <Filter>resources\textures\floors\floor1</Filter>
+    </Image>
+    <Image Include="resources\textures\floors\floor1\floor22.png">
+      <Filter>resources\textures\floors\floor1</Filter>
+    </Image>
+    <Image Include="resources\textures\floors\floor1\floor23.png">
+      <Filter>resources\textures\floors\floor1</Filter>
+    </Image>
+    <Image Include="resources\textures\floors\floor1\floor24.png">
+      <Filter>resources\textures\floors\floor1</Filter>
+    </Image>
+    <Image Include="resources\textures\floors\floor1\floor25.png">
+      <Filter>resources\textures\floors\floor1</Filter>
+    </Image>
+    <Image Include="resources\textures\floors\floor1\floor26.png">
+      <Filter>resources\textures\floors\floor1</Filter>
+    </Image>
+    <Image Include="resources\textures\floors\floor1\floor27.png">
+      <Filter>resources\textures\floors\floor1</Filter>
+    </Image>
+    <Image Include="resources\textures\floors\floor1\floor28.png">
+      <Filter>resources\textures\floors\floor1</Filter>
+    </Image>
+    <Image Include="resources\textures\floors\floor1\floor29.png">
+      <Filter>resources\textures\floors\floor1</Filter>
+    </Image>
+    <Image Include="resources\textures\floors\floor1\floor30.png">
+      <Filter>resources\textures\floors\floor1</Filter>
+    </Image>
+    <Image Include="resources\textures\walls\wall1\wall1.png">
+      <Filter>resources\textures\walls\wall1</Filter>
+    </Image>
+    <Image Include="resources\textures\walls\wall1\wall2.png">
+      <Filter>resources\textures\walls\wall1</Filter>
+    </Image>
+    <Image Include="resources\textures\walls\wall1\wall3.png">
+      <Filter>resources\textures\walls\wall1</Filter>
+    </Image>
+    <Image Include="resources\textures\walls\wall1\wall4.png">
+      <Filter>resources\textures\walls\wall1</Filter>
+    </Image>
+    <Image Include="resources\textures\walls\wall1\wall5.png">
+      <Filter>resources\textures\walls\wall1</Filter>
+    </Image>
+    <Image Include="resources\textures\walls\wall1\wall6.png">
+      <Filter>resources\textures\walls\wall1</Filter>
+    </Image>
+    <Image Include="resources\textures\walls\wall1\wall7.png">
+      <Filter>resources\textures\walls\wall1</Filter>
+    </Image>
+    <Image Include="resources\textures\walls\wall1\wall8.png">
+      <Filter>resources\textures\walls\wall1</Filter>
+    </Image>
+    <Image Include="resources\textures\walls\wall1\wall9.png">
+      <Filter>resources\textures\walls\wall1</Filter>
+    </Image>
+    <Image Include="resources\textures\walls\wall1\wall10.png">
+      <Filter>resources\textures\walls\wall1</Filter>
+    </Image>
+    <Image Include="resources\textures\walls\wall1\wall11.png">
+      <Filter>resources\textures\walls\wall1</Filter>
+    </Image>
+    <Image Include="resources\textures\walls\wall1\wall12.png">
+      <Filter>resources\textures\walls\wall1</Filter>
+    </Image>
+    <Image Include="resources\textures\walls\wall1\wall13.png">
+      <Filter>resources\textures\walls\wall1</Filter>
+    </Image>
+    <Image Include="resources\textures\walls\wall1\wall14.png">
+      <Filter>resources\textures\walls\wall1</Filter>
+    </Image>
+    <Image Include="resources\textures\walls\wall1\wall15.png">
+      <Filter>resources\textures\walls\wall1</Filter>
+    </Image>
+    <Image Include="resources\textures\walls\wall1\wall16.png">
+      <Filter>resources\textures\walls\wall1</Filter>
+    </Image>
+    <Image Include="resources\textures\walls\wall1\wall17.png">
+      <Filter>resources\textures\walls\wall1</Filter>
+    </Image>
+    <Image Include="resources\textures\walls\wall1\wall18.png">
+      <Filter>resources\textures\walls\wall1</Filter>
+    </Image>
+    <Image Include="resources\textures\walls\wall1\wall19.png">
+      <Filter>resources\textures\walls\wall1</Filter>
+    </Image>
+    <Image Include="resources\textures\walls\wall1\wall20.png">
+      <Filter>resources\textures\walls\wall1</Filter>
+    </Image>
+    <Image Include="resources\textures\walls\wall1\wall21.png">
+      <Filter>resources\textures\walls\wall1</Filter>
+    </Image>
+    <Image Include="resources\textures\walls\wall1\wall22.png">
+      <Filter>resources\textures\walls\wall1</Filter>
+    </Image>
+    <Image Include="resources\textures\walls\wall1\wall23.png">
+      <Filter>resources\textures\walls\wall1</Filter>
+    </Image>
+    <Image Include="resources\textures\walls\wall1\wall24.png">
+      <Filter>resources\textures\walls\wall1</Filter>
+    </Image>
+    <Image Include="resources\textures\walls\wall1\wall25.png">
+      <Filter>resources\textures\walls\wall1</Filter>
+    </Image>
+    <Image Include="resources\textures\walls\wall1\wall26.png">
+      <Filter>resources\textures\walls\wall1</Filter>
+    </Image>
+    <Image Include="resources\textures\walls\wall1\wall27.png">
+      <Filter>resources\textures\walls\wall1</Filter>
+    </Image>
+    <Image Include="resources\textures\walls\wall1\wall28.png">
+      <Filter>resources\textures\walls\wall1</Filter>
+    </Image>
+    <Image Include="resources\textures\walls\wall1\wall29.png">
+      <Filter>resources\textures\walls\wall1</Filter>
+    </Image>
+    <Image Include="resources\textures\walls\wall1\wall30.png">
+      <Filter>resources\textures\walls\wall1</Filter>
+    </Image>
+    <Image Include="resources\textures\enemies\ghost\enemy1.png">
+      <Filter>resources\textures\enemies\ghost</Filter>
+    </Image>
+    <Image Include="resources\textures\enemies\zombie\zombie.png">
+      <Filter>resources\textures\enemies\zombie</Filter>
+    </Image>
+    <Image Include="resources\textures\enemies\robot\robot.png">
+      <Filter>resources\textures\enemies\robot</Filter>
+    </Image>
+    <Image Include="resources\textures\icons\damage.png">
+      <Filter>resources\textures\icons</Filter>
+    </Image>
+    <Image Include="resources\textures\icons\hp.png">
+      <Filter>resources\textures\icons</Filter>
+    </Image>
+    <Image Include="resources\textures\icons\speed.png">
+      <Filter>resources\textures\icons</Filter>
+    </Image>
+    <Image Include="resources\textures\icons\lvl.png">
+      <Filter>resources\textures\icons</Filter>
+    </Image>
+    <Image Include="resources\textures\enemies\slime\slime.png">
+      <Filter>resources\textures\enemies\slime</Filter>
+    </Image>
+    <Image Include="resources\textures\keys\arrows.png">
+      <Filter>resources\textures\keys</Filter>
+    </Image>
+    <Image Include="resources\textures\keys\wsad.png">
+      <Filter>resources\textures\keys</Filter>
+    </Image>
+    <Image Include="resources\textures\keys\f1.png">
+      <Filter>resources\textures\keys</Filter>
+    </Image>
+    <Image Include="resources\textures\keys\f2.png">
+      <Filter>resources\textures\keys</Filter>
+    </Image>
+    <Image Include="resources\textures\objects\medKit.png">
+      <Filter>resources\textures\objects</Filter>
+    </Image>
+    <Image Include="resources\textures\objects\barrel.png">
+      <Filter>resources\textures\objects</Filter>
+    </Image>
+    <Image Include="resources\textures\objects\chest.png">
+      <Filter>resources\textures\objects</Filter>
+    </Image>
+    <Image Include="resources\textures\icons\velocity.png">
+      <Filter>resources\textures\icons</Filter>
+    </Image>
+    <Image Include="resources\textures\icons\eliminations.png">
+      <Filter>resources\textures\icons</Filter>
+    </Image>
+    <Image Include="resources\textures\icons\gold.png">
+      <Filter>resources\textures\icons</Filter>
+    </Image>
+    <Image Include="resources\textures\icons\map.png">
+      <Filter>resources\textures\icons</Filter>
+    </Image>
+    <Image Include="resources\textures\enemies\dragon\dragon.png">
+      <Filter>resources\textures\enemies\dragon</Filter>
+    </Image>
+    <Image Include="resources\textures\walls\lava\lava1.png">
+      <Filter>resources\textures\floors\lava</Filter>
+    </Image>
+    <Image Include="resources\textures\walls\lava\lava2.png">
+      <Filter>resources\textures\floors\lava</Filter>
+    </Image>
+    <Image Include="resources\textures\walls\lava\lava3.png">
+      <Filter>resources\textures\floors\lava</Filter>
+    </Image>
+    <Image Include="resources\textures\walls\lava\lava4.png">
+      <Filter>resources\textures\floors\lava</Filter>
+    </Image>
+    <Image Include="resources\textures\walls\bricks\brick1.png">
+      <Filter>resources\textures\walls\bricks</Filter>
+    </Image>
+    <Image Include="resources\textures\walls\bricks\brick2.png">
+      <Filter>resources\textures\walls\bricks</Filter>
+    </Image>
+    <Image Include="resources\textures\walls\bricks\brick3.png">
+      <Filter>resources\textures\walls\bricks</Filter>
+    </Image>
+    <Image Include="resources\textures\walls\bricks\brick4.png">
+      <Filter>resources\textures\walls\bricks</Filter>
+    </Image>
+    <Image Include="resources\textures\spikes\slime1.png">
+      <Filter>resources\textures\spikes</Filter>
+    </Image>
+    <Image Include="resources\textures\spikes\spikes1.png">
+      <Filter>resources\textures\spikes</Filter>
+    </Image>
+    <Image Include="resources\textures\player\player\Attack.png">
+      <Filter>resources\textures\player\player</Filter>
+    </Image>
+    <Image Include="resources\textures\player\player\Death.png">
+      <Filter>resources\textures\player\player</Filter>
+    </Image>
+    <Image Include="resources\textures\player\player\Fall.png">
+      <Filter>resources\textures\player\player</Filter>
+    </Image>
+    <Image Include="resources\textures\player\player\Get hit.png">
+      <Filter>resources\textures\player\player</Filter>
+    </Image>
+    <Image Include="resources\textures\player\player\Idle.png">
+      <Filter>resources\textures\player\player</Filter>
+    </Image>
+    <Image Include="resources\textures\player\player\Jump.png">
+      <Filter>resources\textures\player\player</Filter>
+    </Image>
+    <Image Include="resources\textures\player\player\projectileExplode.png">
+      <Filter>resources\textures\player\player</Filter>
+    </Image>
+    <Image Include="resources\textures\player\player\projectileMoving.png">
+      <Filter>resources\textures\player\player</Filter>
+    </Image>
+    <Image Include="resources\textures\player\player\Runleft.png">
+      <Filter>resources\textures\player\player</Filter>
+    </Image>
+    <Image Include="resources\textures\player\player\Runright.png">
+      <Filter>resources\textures\player\player</Filter>
+    </Image>
+    <Image Include="resources\textures\player\player\Walk.png">
+      <Filter>resources\textures\player\player</Filter>
+    </Image>
+    <Image Include="resources\textures\player\player\wings.png">
+      <Filter>resources\textures\player\player</Filter>
+    </Image>
+    <Image Include="resources\textures\player\player1\Idle1.png">
+      <Filter>resources\textures\player\player1</Filter>
+    </Image>
+    <Image Include="resources\textures\player\player2\Idle2.png">
+      <Filter>resources\textures\player\player2</Filter>
+    </Image>
+    <Image Include="resources\textures\enemies\projectiles\fireball.png">
+      <Filter>resources\textures\enemies\projectiles</Filter>
+    </Image>
+    <Image Include="resources\textures\enemies\mage\mage.png">
+      <Filter>resources\textures\enemies\mage</Filter>
+    </Image>
+    <Image Include="resources\textures\icons\miniMap\map.png">
+      <Filter>resources\textures\icons\miniMap</Filter>
+    </Image>
+    <Image Include="resources\textures\icons\miniMap\notMap.png">
+      <Filter>resources\textures\icons\miniMap</Filter>
+    </Image>
+    <Image Include="resources\textures\icons\miniMap\playerIcon.png">
+      <Filter>resources\textures\icons\miniMap</Filter>
+    </Image>
+    <Image Include="resources\textures\pause.png">
+      <Filter>resources\textures</Filter>
+    </Image>
+    <Image Include="resources\textures\objects\trapdoorClosed.png">
+      <Filter>resources\textures\objects</Filter>
+    </Image>
+    <Image Include="resources\textures\objects\trapdoorOpen.png">
+      <Filter>resources\textures\objects</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="resources\sounds\hit.wav">
+      <Filter>resources\sounds</Filter>
+    </Media>
+    <Media Include="resources\sounds\music.wav">
+      <Filter>resources\sounds</Filter>
+    </Media>
+    <Media Include="resources\sounds\walk.wav">
+      <Filter>resources\sounds</Filter>
+    </Media>
+    <Media Include="resources\sounds\shot.wav">
+      <Filter>resources\sounds</Filter>
+    </Media>
+    <Media Include="resources\sounds\door.wav">
+      <Filter>resources\sounds</Filter>
+    </Media>
+    <Media Include="resources\sounds\damageTaken.wav">
+      <Filter>resources\sounds</Filter>
+    </Media>
+    <Media Include="resources\sounds\enemyDeath.wav">
+      <Filter>resources\sounds</Filter>
+    </Media>
+  </ItemGroup>
+</Project>
