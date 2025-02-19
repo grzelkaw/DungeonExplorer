@@ -56,7 +56,7 @@ We can also pause the game, where we can turn off music, or save and load game. 
 ![image alt](https://github.com/grzelkaw/DungeonExplorer/blob/main/screenshots/8.png?raw=true)
 
 # Summary
-<p>That's all for now, I ended this project because of lack of free time. Feel free to download and test the game yourself</p>
+<p>That's all for now, I ended this project because of lack of free time. Feel free to download, test the game yourself and leave feedback!</p>
 <p>Made by Wiktor Grzelka</p>
 
 
