@@ -55,7 +55,8 @@ Abstract class same as object or enemy. Is used to give player different effect 
 We can also pause the game, where we can turn off music, or save and load game. Save and Load works by saving our stats and items to txt file, and loading it up when we want.
 ![image alt](https://github.com/grzelkaw/DungeonExplorer/blob/main/screenshots/8.png?raw=true)
 
-# Future plans
-TODO
+# Summary
+<p>That's all for now, I ended this project because of lack of free time. Feel free to download and test the game yourself</p>
+<p>Made by Wiktor Grzelka</p>
 
 
